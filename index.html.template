@@ -1,0 +1,7 @@
+<h1>Astronomy Picture of the Day</h1>
+<h2>{{.Date}}</h2>
+<img src={{.URL}} alt="Picture">
+<h3><em>{{.Title}}</em></h3>
+<p><strong>Explanation: </strong>{{.Explanation}}</p>
+
+<p>If you would like to see the High Definition version of this photo, you can do so <a href={{.Hdurl}}>here.</a></p>
