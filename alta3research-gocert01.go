@@ -1,3 +1,12 @@
+/*
+GoLang program to display the NASA Astronomy Picture of the Day. | Liam Hogan
+
+The program can be broken down into three steps:
+1.) Fetch Picture of the day information and return in populated picture struct.
+2.) Use the populated picture struct to construct a index.html webpage leveraging 
+the index.html.template file.
+3.) Navigate the user to their browser and open the newly created index.html webpage.
+*/
 package main
 
 import (
